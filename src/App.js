@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <h1>User names</h1>
-      <ul></ul>
+      {users.map((user)=><ul>{user.name}</ul>)}
     </div>
   );
 }
